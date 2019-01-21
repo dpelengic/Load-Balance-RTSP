@@ -95,10 +95,10 @@ $ service network restart
 ### Communication flow
 
 Example flow, MANAGEMENT communication between Middleware and RTSP Video Server:
-![LB_content_management](https://github.com/diarpi/Load-Balance-RTSP/blob/master/LB_content_management.png)
+![LB_content_management](https://github.com/dpelengic/Load-Balance-RTSP/blob/master/LB_content_management.png)
 
 Example flow, RTSP playout requests by Video Consumers (Clients):
-![LB_rtsp_playout](https://github.com/diarpi/Load-Balance-RTSP/blob/master/LB_rtsp_playout.png)
+![LB_rtsp_playout](https://github.com/dpelengic/Load-Balance-RTSP/blob/master/LB_rtsp_playout.png)
 
 In both cases, RTSP Video Servers communicates with Video Consumers / Middleware server directly after establishing a connection, bypassing Load Balancers.
 
